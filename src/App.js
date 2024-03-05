@@ -8,13 +8,15 @@ import SettingsContent from "./SettingsContent"
 
 function App() {
 
-  const [showSettings, setshowSettings] = useState(true);
+  const [showSettings, setshowSettings] = useState(false);
   const [workMinutes, setworkMinutes] = useState(45);
   const [breakMinutes, setbreakMinutes] = useState(15);
 
   return (
     <main>
       <SettingsContent.Provider value ={{
+        showSettings,
+        setshowSettings,
         workMinutes,
         breakMinutes,
         setworkMinutes,
