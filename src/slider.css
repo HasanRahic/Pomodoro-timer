@@ -1,3 +1,7 @@
+*{
+    font-weight: bold;
+    font-size: 18px;
+}
 .slider{
     height: 40px;
     border: 2px solid var(--red);
