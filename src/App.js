@@ -9,8 +9,8 @@ import SettingsContent from "./SettingsContent"
 function App() {
 
   const [showSettings, setshowSettings] = useState(false);
-  const [workMinutes, setworkMinutes] = useState(45);
-  const [breakMinutes, setbreakMinutes] = useState(15);
+  const [workMinutes, setworkMinutes] = useState(15);
+  const [breakMinutes, setbreakMinutes] = useState(5);
 
   return (
     <main>
